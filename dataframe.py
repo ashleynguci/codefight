@@ -22,3 +22,9 @@ print(list['country'])
 print(list[['country']])
 '''double bracket with putput a Panda dataframe, 2 dimension object, many  column with dif types'''
 
+dates = pd.date_range('20190303',periods = 10)
+print(dates)
+
+print(list[['country','area']])
+insurance = pd.read_csv('FL_insurance_sample.csv', index_col=0)
+print(insurance[0:10])
