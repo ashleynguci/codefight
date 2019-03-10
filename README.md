@@ -25,13 +25,11 @@ adjacentElementsProduct(inputArray) = 21.
 7 and 3 produce the largest product.
 
 </br>
-</br>
 **#reverseInParentheses
 Write a function that reverses characters in (possibly nested) parentheses in the input string.
 Input strings will always be well-formed with matching ()s.**
 
 Example
-
 For inputString = "(bar)", the output should be
 reverseInParentheses(inputString) = "rab";
 For inputString = "foo(bar)baz", the output should be
