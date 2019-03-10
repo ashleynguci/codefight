@@ -1,6 +1,7 @@
 # codefight
 There are some tasks that I think I need to note  down
 </br>
+</br>
 **#areSimilar.py**
 Two arrays are called similar if one can be obtained from another by swapping at most one pair of elements in one of the arrays.
 Given two arrays a and b, check whether they are similar.
@@ -14,3 +15,11 @@ We can obtain b from a by swapping 2 and 1 in b.
 For a = [1, 2, 2] and b = [2, 1, 1], the output should be
 areSimilar(a, b) = false.
 Any swap of any two elements either in a or in b won't make a and b equal.
+</br>
+</br>
+**#adjacentElementsProduct**
+Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+Example
+For inputArray = [3, 6, -2, -5, 7, 3], the output should be
+adjacentElementsProduct(inputArray) = 21.
+7 and 3 produce the largest product.
